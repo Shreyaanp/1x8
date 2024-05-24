@@ -1,0 +1,767 @@
+Data structures are essential components that help organize and store data efficiently in computer memory. They provide a way to manage and manipulate data effectively, enabling faster access, insertion, and deletion operations. 
+Common data structures include arrays, linked lists, stacks, queues, trees, and graphs , each serving specific purposes based on the requirements of the problem. Understanding data structures is fundamental for designing efficient algorithms and optimizing software performance.
+Data Structure
+Table of Content
+A data structure is a way of organizing and storing data in a computer so that it can be accessed and used efficiently. It defines the relationship between the data and the operations that can be performed on the data
+Data structures are essential for the following reasons:
+Data structures can be classified into two main categories:
+Basically, data structures are divided into two categories:
+Data structures are widely used in various applications, including:
+Below are some most popular Data Structure:
+Array is a linear data structure that stores a collection of elements of the same data type. Elements are allocated contiguous memory, allowing for constant-time access. Each element has a unique index number.
+Important articles on Array:
+Related articles on Array:
+A matrix is a two-dimensional array of elements, arranged in rows and columns. It is represented as a rectangular grid, with each element at the intersection of a row and column.
+Important articles on Matrix:
+Related articles on Matrix:
+A linear data structure where elements are stored in nodes linked together by pointers. Each node contains the data and a pointer to the next node in the list. Linked lists are efficient for inserting and deleting elements, but they can be slower for accessing elements than arrays.
+Types of Linked List:
+a) Singly Linked List: Each node points to the next node in the list.
+Important articles on Singly Linked Lis:
+b) Circular Linked List: The last node points back to the first node, forming a circular loop.
+Important articles on Circular Linked List:
+c) Doubly Linked List: Each node points to both the next and previous nodes in the list.
+Important articles on Doubly Linked List:
+Related articles on Linked List:
+Stack is a linear data structure that follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out). LIFO implies that the element that is inserted last, comes out first and FILO implies that the element that is inserted first, comes out last.
+Important articles on Stack:
+Related articles on Stack:
+A Queue Data Structure is a fundamental concept in computer science used for storing and managing data in a specific order. It follows the principle of “First in, First out” (FIFO), where the first element added to the queue is the first one to be removed
+Important articles on Queue:
+Related articles on Queue:
+Binary Tree is a hierarchical data structure where each node has at most two child nodes, referred to as the left child and the right child. Binary trees are mostly used to represent hierarchical data, such as file systems or family trees.
+Important articles on Binary Tree:
+Related articles on Binary Tree:
+A Binary Search Tree is a data structure used for storing data in a sorted manner. Each node in a Binary Search Tree has at most two children, a left child and a right child, with the left child containing values less than the parent node and the right child containing values greater than the parent node. This hierarchical structure allows for efficient searching, insertion, and deletion operations on the data stored in the tree.
+Important articles on Binary Search Tree:
+Related articles on Binary Search Tree:
+A Heap is a complete binary tree data structure that satisfies the heap property: for every node, the value of its children is less than or equal to its own value. Heaps are usually used to implement priority queues, where the smallest (or largest) element is always at the root of the tree.
+Important articles on Heap:
+Related articles on Heap:
+Hashing is a technique that generates a fixed-size output (hash value) from an input of variable size using mathematical formulas called hash functions. Hashing is used to determine an index or location for storing an item in a data structure, allowing for efficient retrieval and insertion.
+Important articles on Hashing:
+Related articles on Hashing:
+Graph is a collection of nodes connected by edges. Graphs are mostly used to represent networks, such as social networks or transportation networks.
+Important articles on Graph:
+Related articles on Graph:
+Below are some advance Data Structure:
+Advanced Lists is a data structure that extends the functionality of a standard list. Advanced lists may support additional operations, such as finding the minimum or maximum element in the list, or rotating the list.
+Important articles on Advanced Lists:
+Segment Tree is a tree data structure that allows for efficient range queries on an array. Each node in the segment tree represents a range of elements in the array, and the value stored in the node is some aggregate value of the elements in that range.
+Important articles on Segment Tree:
+Related articles on Segment Tree:
+Trie is a tree-like data structure that is used to store strings. Each node in the trie represents a prefix of a string, and the children of a node represent the different characters that can follow that prefix. Tries are often used for efficient string matching and searching.
+Important articles on Trie:
+Related articles on Trie:
+Binary Indexed Tree is a data structure that allows for efficient range queries and updates on an array. Binary indexed trees are often used to compute prefix sums or to solve range query problems.
+Important articles on Binary Indexed Tree:
+Related articles on Binary Indexed Tree:
+Suffix Array and Suffix Tree is a data structures that are used to efficiently search for patterns within a string. Suffix arrays and suffix trees are mostly used in bioinformatics and text processing applications.
+Important articles on Suffix Array and Suffix Tree:
+Related articles on Suffix Array and Suffix Tree:
+AVL tree is a self-balancing binary search tree that maintains a balanced height. AVL trees are mostly used when it is important to have efficient search and insertion operations.
+Important articles on AVL Tree:
+Splay Tree is a self-balancing binary search tree that moves frequently accessed nodes to the root of the tree. Splay trees are mostly used when it is important to have fast access to recently accessed data.
+Important articles on Splay Tree:
+B Tree is a balanced tree data structure that is used to store data on disk. B trees are mostly used in database systems to efficiently store and retrieve large amounts of data.
+Important articles on B Tree:
+Red-Black Tree is a self-balancing binary search tree that maintains a balance between the number of black and red nodes. Red-black trees are mostly used when it is important to have efficient search and insertion operations.
+Important articles on Red-Black Tree:
+Related articles on Red-Black Tree:
+ K Dimensional Tree is a tree data structure that is used to store data in a multidimensional space. K dimensional trees are mostly used for efficient range queries and nearest neighbor searches.
+Important articles on K Dimensional Tree:
+Others Data Structure:
+Misc:
+If you're seeing this message, it means we're having trouble loading external resources on our website.
+
+             If you're behind a web filter, please make sure that the domains *.kastatic.org and *.kasandbox.org are unblocked.
+
+
+To log in and use all the features of Khan Academy, please enable JavaScript in your browser.
+How have humans protected their secret messages through history? What has changed today?
+Our mission is to provide a free, world-class education to anyone, anywhere.
+
+Khan Academy is a 501(c)(3) nonprofit organization. Donate or volunteer today!
+An introduction to the intellectual enterprises of computer science and the art of programming.
+A broad and robust understanding of computer science and programming
+How to think algorithmically and solve programming problems efficiently
+Concepts like abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development
+Familiarity with a number of languages, including C, Python, SQL, and JavaScript plus CSS and HTML
+How to engage with a vibrant community of like-minded learners from all levels of experience
+How to develop and present a final programming project to your peers
+This is CS50x , Harvard University's introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike, with or without prior programming experience. An entry-level course taught by David J. Malan, CS50x teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include C, Python, SQL, and JavaScript plus CSS and HTML. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. The on-campus version of CS50x , CS50, is Harvard's largest course. 
+Students who earn a satisfactory score on 9 problem sets (i.e., programming assignments) and a final project are eligible for a certificate. This is a self-paced course–you may take CS50x on your own schedule.
+This is CS50’s introduction to technology for students who don’t (yet!) consider themselves computer persons.
+This course picks up where CS50 leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap.
+This course is a variant of Harvard University's introduction to computer science, CS50, designed especially for lawyers (and law students).
+Donate
+
+
+An Operating System(OS) is software that manages and handles the hardware and software resources of a computer system. It provides interaction between users of computers and computer hardware. An operating system is responsible for managing and controlling all the activities and sharing of computer resources. An operating system is a low-level Software that includes all the basic functions like processor management, memory management, Error detection, etc.
+
+
+This Operating System tutorial will cover all the basic to advance operating system concepts like System Structure, CPU Scheduling, Deadlock, file and disk management, and many more.
+
+>> Quiz on CPU Scheduling
+>> Quiz on Process Management in OS
+>> Quiz on Deadlock
+>> Quiz on Memory Management
+>> Quiz on Input Output Systems
+Answer:
+
+OS is the most important part of a computer. Through OS users can interact with computer software. It provides an interface between Hardware and CPU. It also provides a platform for the program to run on it and services to users. It performs all the basic tasks required in an application.
+
+Answer:
+
+Some most popular OS examples are given below:
+Answer:
+
+A multiprocessor system involves the processing of two or more computer programs simultaneously that share the same memory area. It increases reliability.
+
+Answer:
+
+A thread is a lightweight process or subprogram which is part of the process or a program. A thread has its own Registers, Stack, State, and Program counter.
+
+Quick Links : 
+
+
+Are you looking for the best introductions to computer science? I’ve ranked the top courses available online, following a robust methodology. And they're all free to audit. You can read about it below.
+But if you’re in a hurry, here are my top picks. Click on one to skip to the course details:
+The definition of computer science is almost as broad as the definition of physics. So, to say that computer science is the study of computers and computing concepts is just as 'useful' as saying that physics is the study of nature and its phenomena.
+Instead, I’ll tell you the main subfields of computer science that most universities include in their syllabus.
+You get the gist. I’m sure you’ve had one of these intriguing thoughts pop up in your mind before. Luckily, these are the questions that computer science tries to answer.
+By studying computer science, you can become a better programmer. Just as a veterinarian is likely to understand animals better than the average pet owner, by studying computer science, you can get a better grasp of the features, abilities, and limitations of these awesome code-running machines that we call ‘computers’.
+I followed a three-step process to build this ranking:
+First, let me introduce myself. I’m part of Class Central, the leading search engine for online courses. I (@elham) built this ranking in collaboration with my friend and colleague @manoel, following the same approach we used with some success in our previous rankings of the best Python courses and best machine learning courses. At this point, I’d say it’s a pretty robust method.
+We started building this ranking by looking at our database of 50K+ online courses. We were interested in things like ratings, reviews, and course bookmarks. This allowed us to make an initial selection. So this phase was purely data-driven.
+This tentative first step rapidly helped surface some of the best options available out there. Word of mouth is very effective in online learning. Good courses get noticed. And the very best gather a lot of attention, and raving reviews.
+That said, reviews don’t always tell the whole story. In fact, some courses are so good at grabbing the spotlight early on that other excellent resources can go unnoticed. So the next step was to bring our personal knowledge of online education into the mix.
+Second, we used our experience as online learners to evaluate each of our initial picks.
+We both come from computer science backgrounds and are prolific online learners, having completed about 45 MOOCs between us. Additionally, Manoel has an online bachelor’s in computer science, and I am currently completing my foundation in computer science.
+Manoel gathered the courses while I wrote the article you’re currently reading. Throughout this process, we bounced ideas off each other and made iterative improvements to the ranking until we were both satisfied with the end result.
+Third, during our research, we came across courses that felt well-made but weren’t well-known. If we adopted a purely data-centric approach, we would have to leave those courses out of the ranking, if only because they had fewer enrollments and ratings.
+But no. This ranking is deliberately opinionated and holistic. When we felt confident that a course was worth including, even when the course might not yet have quite as many reviews as some of its competitors, we went with our gut and included it. 
+We also spiced up the list by including a wide variety of computer science courses that will hopefully cater to the diverse range of learners, whether you’re a true beginner or someone with some foundations in computer science, or an interest in specific topics like math.
+After going through this process — combining Class Central data, our experience as lifelong learners, and lots of editing — we arrived at our final ranking. So far, we’ve spent more than 10 hours building this ranking, and we intend to continue updating it in the future.
+Here are some aggregate stats about the ranking:
+Without further ado, let’s go through the top picks.
+My first pick has to be CS50's Introduction to Computer Science, offered by Harvard University on edX. Launched on edX in 2012, CS50 is the computer science course on the internet. It is famous for its splendid production quality and its yearly curriculum updates.
+It provides a succinct but comprehensive overview of what computer science is all about. Whether you are a newbie who has never heard of ‘Hello World!’, or a programmer who knows a thing or two about computers, you’ll come out of this course having learned something new.
+Although the course exercises come in two versions, easy and challenging, I found that even the easy exercises can be a bit tricky. If you know nothing about programming, I’d recommend you find someone to study this course with.
+Fortunately, CS50 has one of the largest and most active course communities online: check their Discord.
+Or if you’re looking for a shorter, more practical course, you might want to have a look at my Python ranking, which includes some gentler on-ramps into the world of programming.
+We can't discuss CS50 without bringing up David J. Malan, the Harvard professor that teaches the course. Rarely has an instructor been so instrumental to the success of a course. 
+Beyond being an excellent educator, Prof. Malan is a true entertainer, with near-perfect delivery. And when you’re tackling an academic course that may take you dozens of hours to complete, having an instructor capable of capturing the learner’s attention makes a huge difference.
+So if despite a sincere desire to learn, you find yourself falling asleep while taking online courses, this might just be the course for you. Prof. Malan’s energy is contagious!
+The course begins with the premise that computer science is, at its core, problem solving. It introduces you to binary, the fundamental language of computers, and explains how sequences of 1s and 0s can somehow represent text, images, videos, and even sounds.
+You’ll learn that algorithms are step-by-step instructions designed to solve a problem. The most common type of algorithms you’ll deal with throughout the course are algorithms for sorting and searching, like bubble sort, merge sort, and binary search. 
+You may wonder, ‘What’s the point of having many different algorithms if they all do the same thing?’. This is when you’ll learn about measuring the efficiency of an algorithm with Big O notation.
+The first programming language the course teaches is the beginner-friendly language Scratch. Through block-based coding, you'll use Scratch to illustrate fundamental programming concepts like functions, conditional statements, boolean expressions, loops, and variables. 
+Later in the course, you’ll notice that these fundamental concepts keep coming up time and again, since they can be found in pretty much every programming language that CS50 will teach you.
+The course then removes your training wheels and drags you down into the depths of low-level programming languages. By “low-level”, I don’t mean “less valuable”. In computer science, low-level programming languages are languages that are close to machine code: the closer they are to machine code, the “lower” they are.
+Assembly language is as close as we get to binary, and the course will briefly discuss it. But our first deep dive into traditional programming (writing lines of code instead of arranging colorful blocks like with Scratch) will be with C, a low-level programming language where you'll manage memory by hand and implement your first data structures.
+You’ll learn that computers store data in sequences of locations in memory, and how computers can locate and access data with addresses and pointers. You’ll also learn about the different ways we can create and store lists of values, like arrays, linked lists, and trees. 
+You’ll compare the advantages and disadvantages of each data structure. For example, hash tables can be accessed in constant time, but require mitigating the risk of data collision.
+You’ll then be brought back up to the surface towards “higher-level” programming, where you’ll be able to comfortably breathe as you begin working with Python, and continue jumping from topic to topic. 
+You’ll explore SQL, the programming language of many databases. The final weeks of the course culminate in you building and designing an interactive website with HTML, CSS, JavaScript, and a Python framework called Flask.
+The course is ten weeks long, plus an open-ended final project that might take an extra week (or more, if you want to work on something really ambitious). 
+The course is recorded annually on-campus at Harvard before being launched online the following Spring. While the recording is ongoing, you might be able to join via live stream with a hundred other learners, or if you live near campus, even attend in person — though the pandemic might preclude this for the foreseeable future. Otherwise, you’ll have access to on-demand recordings on edX or via Harvard OCW.
+Regarding assessments, you’ll complete ten problem sets, eight labs, and a final end-of-course project that you’ll have to design and come up with yourself or with a team. You’ll be able to code and submit these via a convenient in-browser VS Code-based editor.
+A lot of people have heard about CS50’s Introduction to Computer Science, but not many realize that there are 10 other courses under the CS50 brand. A few follow-up courses worth mentioning are:
+What’s even better: many of these courses offer a free certificate. If you’d like to know more about the CS50 courses, and how to get a free certificate, you can read Manoel's CS50 guide.
+If you're interested in this course, you can find more information about the course and how to enroll here.
+My second pick would be Computational Thinking for Problem Solving from the University of Pennsylvania on Coursera.
+This course focuses on the skills underlying computer science  — computational thinking.
+Computational thinking is the process of breaking a problem into parts, and then coming up with a resolution method that can be carried out by a computer.
+Once you’ve embraced computational thinking, you’ll be in the right mindset to tackle additional computer science courses. So you could see this course as a foundation before the foundation. That said, if your interest lies in problem solving per se rather than CS as a whole, this course should also be a great fit.
+You do not need any prior experience with computer science or programming to take this course, although some basic high school mathematics would be useful.
+The course covers four main topics: computational thinking, algorithms, computer architecture, and Python.
+First, the course outlines the four pillars of computational thinking. You’ll begin with decomposition, breaking down a complex problem into smaller, simpler problems. Then through pattern recognition, you’ll compare the problem to other similar problems that have been solved previously. 
+Afterwards, during data representation and abstraction, you’ll simplify the problem even more by identifying what characteristics of the problem are important and filtering out those that are not.
+The last pillar of computational thinking, algorithms, forms the second section of the course. The course defines algorithms as a set of step-by-step instructions to solve a problem. With algorithms, you can teach the computer how to solve problems without explicitly telling them precisely how. Instead, your algorithm will be able to handle a number of different cases, as long as these satisfy some preconditions.
+You’ll explore a variety of algorithms, like linear and binary search. You’ll learn how to represent algorithms with flowcharts, analyze the complexity of algorithms (Big O), and calculate the number of possible solutions to an optimization problem. Lastly, you’ll compare the benefits and limitations of common algorithmic approaches to problem solving.
+The third part of the course gives a brief history of computers, before settling on the computer architecture used by modern computers — the Von Neumann Architecture. 
+It consists of three fundamental units: the memory, CPU, and I/O. You’ll learn how data and instructions are stored and accessed in computers as bits and bytes, and also how executing code amounts to moving pieces of data in memory and operating on it in the CPU.
+In the fourth and final section, the course will instruct you on the basics of Python programming. You’ll explore iterations, classes, and debugging. And you’ll end the course by coding your own Python program, where you’ll get to implement the algorithms you learned previously into code.
+The course is 4 weeks long, with each week having about 18 hours of course material. You’ll learn primarily from video lectures, and after each video there’ll be a short quiz to test your recall. There is supplementary material available on math, for those not-so-confident in their mathematical abilities.
+At the end of each week, you’ll be presented with a case study where you’ll see examples of computational thinking used to solve real-life problems. Afterwards, you’ll complete a project where you’ll apply what you’ve learned. Do note that the assessments in this course are for verified learners.
+If you're interested in this course, you can find more information about the course and how to enroll here.
+My third pick for the best computer science course is Introduction to Computer Science and Programming Using Python, offered by MIT on edX.
+This course approaches the field of computer science and programming through Python. The course focuses on breadth rather than depth, giving students background knowledge on the numerous applications of computation.
+So this course is similar to our first pick in that it’s a survey course: it covers a lot, but not in great detail. But it’s dissimilar in that it focuses entirely on one programming language, Python, while Harvard’s course involves multiple languages. 
+Depending on your goals, this focus on Python could be seen as a positive or a negative. For what it’s worth, I believe Python is an excellent first programming language.
+Heads up! This course tries to mirror the MIT on-campus experience, so don’t expect it to be a cakewalk. You won’t need any prior experience with computer science or programming to take it, but you’ll need a background in high school mathematics.
+The main topics the course explores are computational thinking, data structures, iteration and recursion, decomposition, abstraction, and algorithms and complexity.
+You’ll be given a brief introduction to computation and computational thinking. You’ll learn what computers are, how they work, and what their limitations are. 
+By understanding that computers only know what you tell them (and what they can infer from what you tell them), you’ll realize that in order for the computer to accomplish a task, they need a ‘recipe’ containing a sequence of instructions they should follow. This is what computer scientists call an algorithm.
+Your programming journey begins by learning Python and its basic syntax. With Python, you’ll explore concepts common to most programming languages. These include variables, conditional statements, and control flows. 
+Furthermore, you’ll be introduced to functions and the role they play in decomposition, abstraction, and recursion, which are concepts fundamental to problem-solving in computer science. 
+By then, you should be able to code simple programs that can come up with approximate solutions to difficult math equations through a guess-and-check method.
+Lastly, you’ll learn about the different ways we can represent information in Python, called data structures. You’ll work with lists, tuples, and dictionaries, and understand when to use one data structure over another.
+The course is 9 weeks long with an expected workload of 14 to 16 hours each week. The main mode of learning is video lectures, and the course includes plenty of activities to put your hard-earned skills into practice. You’ll also have access to a learner’s forum where you can discuss with fellow learners.
+There are 3 problem sets containing challenging coding exercises that will help you solidify your knowledge. If you are a verified learner, you’ll have to complete a timed mid-term and final exam in order to receive your certificate.
+If you're interested in this course, you can find more information about the course and how to enroll here.
+Principles of Computing (Part 1), by Rice University on Coursera, is my fourth pick for the best computer science introduction. The course emphasizes doing rather than watching, requiring you to complete many coding assignments.
+This course aims to help you step up your programming skills by teaching you computational problem solving, a skill that underlies computer science, and that was also the focus of our second pick. This will involve learning important programming practices and developing a mathematical foundation for problem solving.
+To take this course, you’ll need to be comfortable with writing small (100+ lines) programs in Python, as well as have some background in high school mathematics. So this one doesn’t start from scratch, and is therefore geared toward learners that also have some basics down. 
+If you’re looking for a problem solving course with fewer prerequisites, you might want to have a look at our second pick.
+The course includes refreshers on Python, code testing, probability and randomness, combinatorics, and function growth.
+After a brief review of Python, the course will explain how to build tests, and why having tests for your Python programs can be useful. 
+Many programmers dislike or don’t simply bother to write tests for their code, but as one of the instructors explains, it’s a best practice worth treating as an integral part of the programming process. 
+Writing tests will help you save time and effort, and serves as a reusable sanity check that your program actually does what it’s supposed to do. For your first mini-project, you’ll recreate the well-known game 2048 in Python.
+Then, the course moves on to the role of probability and randomness in computer science. You’ll learn how to identify unreasonable outcomes in probability, along with calculating the expected value of multiple outcomes. 
+For example, what’s the chance that a die would roll seven sixes out of ten tosses? And if that were to happen, to what extent could we conclude that the die is weighted — that is, that the rolls were unfair?
+You’ll also see how we can use Python to simulate the probability of outcomes, a valuable tool used in statistical modeling. And for your second mini-project, you’ll work with probabilities to create an opponent that you can face in a game of Tic-Tac-Toe.
+The course also touches on combinatorics, which deals with enumerations, permutations, and combinations. You’ll figure out how to calculate the total number of ways an event can play out. 
+This helps greatly in calculating the number of steps an algorithm would take, thereby allowing you to estimate the running time of the algorithm, and in turn, determine if the algorithm would be worth implementing. You can see why combinatorics plays a major role in password and computer security. For your third mini-project, you’ll code the familiar dice game Yahtzee.
+In the final part of the course, you’ll be taught the importance of counting in solving complex problems. Counting answers the question of how long an algorithm might take to run given a task. Another name for counting you might be more familiar with is “time complexity”. 
+You’ll also learn about higher-order functions in Python, that is functions that take other functions as algorithms, like the map function. In your last mini-project, you’ll use these concepts to make your own version of Cookie Clicker.
+The course is split into 5 weeks, with each week involving 7 to 10 hours of study. You’ll learn primarily through video lectures and graded assignments, although the course does supply supplemental notes and activities for further reading and practice. 
+You’ll code and submit the homework and mini-projects on their companion website CodeSkulptor, and in-browser code editor that will preempt the need of setting up a local coding environment.
+If you're interested in this course, you can find more information about the course and how to enroll here.
+Computer Science 101 aims to demystify the magic of computers by demonstrating that they work by following a few relatively simple patterns. 
+This course will help you become familiar with those patterns. It will give insights into how computers work and what their limitations are. 
+In addition, the course delves into networking and other major topics within CS. No prior knowledge of computer science required!
+The course starts off with the fundamental equation of computers: Computer = Powerful + Stupid. Computers are powerful because they can perform billions of operations per second. But they are stupid because they need someone to tell them what to do. This is where programmers come into play.
+This course uses small snippets of JavaScript to introduce you to programming and other computer science concepts. You’ll gain a grasp of programming concepts like variables, loops and iterations, conditional statements, and so on. The course later covers low-level and high-level languages, as well as compilers and interpreters.
+The computer is a tool and the programmer wields the tool. Therefore, to program efficiently, it is important to understand how the tool works. The course covers many aspects of said tool, including hardware. You’ll learn about the parts that make up a computer, and look at how computers can represent different information formats. 
+The main format you’ll work with is images. One of the things you’ll do is “greenscreen” images as well as turn coloured images into grayscale by operating at the individual pixel level.
+Another topic the course covers is computer networks, which is how computers communicate with one another. You’ll learn about the different types of networks. 
+You’ll study what IP addresses are and how they allow computers to locate each other. The course discusses how computers transmit information through data packets, and also the communication protocol the Internet runs on  —  TCP/IP.
+The course also briefly covers a variety of other topics like databases and spreadsheets, computer security, and analog and digital data.
+The course is 6 weeks long, with each week taking 4–6 hours to complete. Lessons are provided through video lectures and are supplemented with notes and assessments. However, you’ll need to be a verified learner to access the assessments.
+If you're interested in this course, you can find more information about the course and how to enroll here.
+This concise course taught by the University of London on Coursera touches on a few key topics in computer science, but it is mostly interested in helping you build a foundational understanding of hardware. It’s in the title really: by the end of the course, you’ll know how computers work.
+And through that understanding, you’ll also form a clearer picture of how computers can be leveraged to help solve everyday problems. 
+The course is just as suitable for someone wanting to build solid foundations for further study in CS, as it is for someone simply curious about how computers work and wanting to explore some key CS topics but not necessarily a deep dive.
+You do not need any prior knowledge of computer science to take this course.
+This course covers computer hardware, abstraction, modularity, computer networks and communication.
+The course begins with abstraction — the art of drawing attention to the important details while filtering out the noise. Many disciplines rely on abstraction, and computer science does so heavily, both at the hardware and software levels. 
+This concept will become apparent when the course starts discussing computer hardware, like memory, CPU, and other devices. You’ll use notional machines as means for capturing these abstractions.
+Afterwards, you’ll move on to another key idea: state and modularity. This will help you answer the question, ‘Why does turning off and on my computer fix most problems?’ 
+Using notional machines, you’ll explain how computer applications function by transitioning through different states, and how modularity allows them to interact with other applications. You’ll learn how to debug stuff, a very useful skill indeed.
+Moving on, you’ll learn how computers talk to one another over the Internet through networks and communication protocols. You’ll also learn about the kinds of security threats computers (and users) face, and how to protect yourself from malicious actors.
+Lastly, you’ll explore basic web development. By applying your new-found knowledge of abstraction, state, and modularity, you’ll be able to clearly understand how websites work.
+The course is 4 weeks long, with 10 hours worth of material per week. It consists of video lectures and quizzes to test your knowledge of the material. You’ll have the chance to share your thoughts in discussion prompts.
+If you're interested in this course, you can find more information about the course and how to enroll here.
+This is another course from the CS50 family. But unlike our first pick, which is the main CS50 course, this course is for those who work with technology everyday but don’t understand how it all works under the hood or how to solve problems when something goes wrong. And it’s also for those who don’t (yet) work with technology — most notably, computers — but would nonetheless like to understand its functioning.
+The course aims to fill in the gaps in your knowledge of hardware, internet, multimedia, programming, and web development, preparing you for the technology of today and tomorrow.
+This course has no prerequisites.
+The course begins with an introduction to the language of computers, binary. It explains how computers use binary to represent text and other information. Then, you’ll move on to the hardware of the computer: CPU, RAM and Main Memory. You’ll learn about the functions of each of these components.
+The course discusses Internet and multimedia, and the technologies underpinning them. It’ll tell you how computers can find and talk with one another. You’ll learn about the common Internet protocol TCP/IP and more. 
+You’ll learn about the different data representations of multimedia, like audio, images, and video. There are many file formats and compression techniques – the course will give you an overview of some of the main ones.
+Next, you’ll be taught how to stay safe on the Internet. You’ll discover several ways to protect your data and privacy. This section will include lessons on cookies, passwords, two-factor authentication, encryption, and more.
+You’ll continue with the basics of web development. You’ll learn how web browsers access the web with HTTP requests. Have you ever seen a 404 or 500 error when trying to visit a webpage? You probably have. Well, in this course, you’ll learn what these errors mean. A brief overview on the languages that allow us to build and style web pages, HTML and CSS, is provided.
+Last by not least, you’ll discover the basics of programming. You’ll primarily use the block-based language Scratch to explore concepts common to pretty much all programming languages, like variables, expressions, loops, and so on.
+Additionally, to demonstrate what an algorithm is (and more specifically the divide-and-conquer paradigm), you’ll watch the instructor tear a phonebook into halves… I had to mention this because it is both very instructive and memorable!
+The course is 6 weeks long, with each week taking 2 to 6 hours to complete, depending on your prior familiarity with the content. Each week contains at least one hour of lecture.
+Regarding assessments, you’ll have to complete an assignment for each of the six topics presented in the course to earn a certificate.
+If you're interested in this course, you can find more information about the course and how to enroll here.
+For those who have some familiarity with programming and algorithms, and want to further their understanding of problem-solving in computer science, this rigorous but insightful course might be what you’re looking for.
+Offered by Udacity, Intro to Theoretical Computer Science explores what makes a problem ‘hard’ to solve, even for a computer. Then, it shows how to reduce and simplify these ‘hard’ problems to make them easier to solve through computation.
+The course covers two main areas of theoretical computer science: complexity theory and computability.
+Complexity theory asks how much of its resources, like time or memory, will a computer require to solve a problem. Computability, on the other hand, asks if a computer can solve a problem at all, even when given more time and memory.
+The course introduces you to a variety of real-world problems from telecommunication, bioinformatics, and finance. You will recognize what makes a problem challenging, and the value of recognizing such problems. This will prime you for understanding what NP-completeness is. Then, you’ll understand what makes a problem ‘hard’ to solve, and be able to prove it.
+The rest of the course discusses what to do with the problem once we’ve proved that it is hard (or even impossible to solve). 
+One of the ways to overcome this obstacle is to employ efficient, intelligent algorithms. Another way is to accept that the problem may not be perfectly solvable, and instead find an approximate solution. And yet another way is to use randomness and probability to poke around and find a solution. 
+You’ll be able to describe and use these techniques in practical situations: the course discusses the theory but it’s also hands-on.
+Lastly, you’ll move on to problems that no computer can ever solve in theory. You will learn about undecidability and recognize the limits of computability.
+The course is 8 weeks long, with a total 14 hours of video lectures. Some videos have a quiz to help you practice recalling what you’ve learned. There are 7 chapters, and at the end of each chapter you will complete a problem set to put your new-found skills to good use.
+Finally, there’s a summative exam at the end of the course.
+If you're interested in this course, you can find more information about the course and how to enroll here.
+Offered by the University of London, this course introduces you to the mathematics and mathematical thinking computer scientists use in their work. What distinguishes this course from other math courses is its playfulness, with fun and interactive exercises.
+More specifically, the course combines elements of algebra, analysis, and geometry — topics carefully picked to serve as the backbone of your computer science education.
+The course discusses, among others, number bases, an essential topic to understand binary, and conversion between binary and other bases, such as hexadecimal. It explores numerical progressions, like the well-known Fibonnaci sequence. And it will touch on geometry and function graphing.
+By the end of the course, you’ll have acquired the foundation needed to understand the math that underpins other computer science courses, and you’ll be ready to tackle more advanced mathematical topics.
+The course assumes you know some high school mathematics as well as basic Python programming.
+The course investigates five main topics: number bases, modular arithmetic, sequences, series, graph sketching and kinematics.
+The course begins with the study of number bases. You might know that binary is the number base used by computers. But did you know that computer scientists also use hexadecimals? 
+You’ll cover the key concepts of place values and number systems, which will involve converting between binary, hexadecimal, and decimal, as well as adding, subtracting, and multiplying them together. Oh, a cool thing that the course teaches you is steganography, the art of hiding messages in images!
+Next, you’ll cover modular arithmetic. Have you ever wondered what “modulo 7” means? You’ll learn about the usefulness of congruence and modular arithmetic operations in computer science (psst, it can be used for encryption).
+You’ll identify, describe, and compute sequences of numbers and their sums. You’ll study a special family of sequences called progressions, which consists of arithmetic and geometric progressions. You’ll learn how sequences can be used to generate random numbers. Additionally, you’ll be able to tell when a series converges (meets at a point) or diverges (approaches infinity)
+Lastly, the course describes how to represent and describe space numerically using coordinates and graphs. You’ll see how graphs can help us visualize and transform functions like straight lines, quadratics, cubics, reciprocals and more. An example of modeling motion will be given: the field of mathematics called kinematics.
+The course is 6 weeks long, with about 40 hours worth of material. Each week comes with one or more quizzes, allowing you to learn by doing. However, you’ll need to pay for the certificate for the course autograder to mark your answers.
+If you're interested in this course, you can find more information about the course and how to enroll here.
+If you have taken a look at the previous two courses but do not have the mathematical foundations to take them yet, this course can help you with the basics.
+This course is a short course on mathematics skills for computer science, offered by the University of Hull on FutureLearn. 
+Meant for learners starting or considering studying computer science at the university level, this course covers Venn diagrams and set theory, algebra techniques, and vectors and matrices — all fundamentals concepts ubiquitous in computer science.
+The course assumes no prior mathematical knowledge. You’re starting from scratch.
+Starting off with Venn diagrams and set theory, you’ll learn how “sets” (bags of objects, if you will) can be formalized and operated on. You’ll learn to reason about computations and objects of computation. Venn diagrams will help you visualize this type of reasoning.
+You’ll then move on to algebra and its techniques. You’ll be given an overview of algebra (which could be described as doing math using variables instead of explicit numbers) and its use in algorithms and scientific computation. The course will teach you how to solve linear equations and quadratic equations using algebra.
+The course ends with an overview of vectors and matrices. You’ll learn what vectors are, and why they are especially important in graphics programming. You’ll learn how we can represent vectors as matrices, and how to modify, transform, and invert matrices to solve complex problems.
+This course is 3 weeks long, with around 3 hours of material per week. You’ll learn primarily through video material, although there are discussion forums where you can discuss problems with fellow learners.
+At the end of each week, there is a quiz that’ll help you strengthen your understanding of mathematical concepts and applications.
+If you're interested in this course, you can find more information about the course and how to enroll here.
+Part-time content writer for Class Central, full-time computer science student.
+
+    If you read this far, thank the author to show them you care. Say Thanks
+
+
+        Learn to code for free. freeCodeCamp's open source curriculum has helped more than 40,000 people get jobs as developers. Get started
+
+freeCodeCamp is a donor-supported tax-exempt 501(c)(3) charity organization (United States Federal Tax Identification Number: 82-0779546)
+Our mission: to help people learn to code for free. We accomplish this by creating thousands of videos, articles, and interactive coding lessons - all freely available to the public.
+Donations to freeCodeCamp go toward our education initiatives, and help pay for servers, services, and staff.
+
+                You can make a tax-deductible donation here.
+            
+Automata theory is a branch of the theory of computation. It deals with the study of abstract machines and their capacities for computation. An abstract machine is called the automata. It includes the design and analysis of automata, which are mathematical models that can perform computations on strings of symbols according to a set of rules.
+Theory of computation is the branch of computer science that studies the nature and ranges of computation. It includes analysis and design of algorithms computation systems, formal languages, automata theory, compatibility theory, and complexity theory.
+
+In this Automata Tutorial, you’ll learn all the basic to advanced topics like Regular languages and finite automata, Context free Grammar and Context-free language, turning machines, etc.
+
+>> Practice problems on finite automata
+>> Practice problems on finite automata | Set 2
+>> Quiz on Regular Languages and Finite Automata
+>> Quiz on Context Free Languages and Pushdown Automata
+
+>> Quiz on Undecidability
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+
+
+LEC #
+
+
+
+TOPICS
+
+
+
+
+
+Unit 1: Introduction
+
+
+
+
+
+
+1
+
+
+Algorithmic thinking, peak finding (PDF - 1.9MB)
+
+
+
+
+
+
+2
+
+
+
+Models of computation, document distance
+
+
+
+Unit 2: Sorting and Trees
+
+
+
+
+
+
+3
+
+
+Insertion sort, merge sort (PDF) (Courtesy of Charles Leiserson, Piotr Indyk, Constantinos Daskalakis, and Srini Devadas. Used with permission.)
+
+
+
+
+
+
+4
+
+
+Heaps and heap sort (PDF) (Courtesy of Charles Leiserson, Piotr Indyk, Constantinos Daskalakis, and Srini Devadas. Used with permission.)
+
+
+
+
+
+
+5
+
+
+Binary search trees, BST sort (PDF - 1.2MB)
+
+
+
+
+
+
+6
+
+
+
+AVL trees, AVL sort
+
+
+
+
+7
+
+
+
+Counting sort, radix sort, lower bounds for sorting
+
+
+
+Unit 3: Hashing
+
+
+
+
+
+
+8
+
+
+
+Hashing with chaining
+
+
+
+
+9
+
+
+
+Table doubling, Karp-Rabin
+
+
+
+
+10
+
+
+Open addressing, cryptographic hashing (PDF)
+
+
+
+
+
+Unit 4: Numerics
+
+
+
+
+
+
+11
+
+
+Integer arithmetic, Karatsuba multiplication (PDF)
+
+
+
+
+
+
+12
+
+
+Square roots, Newton’s method (PDF)
+
+
+
+
+
+Unit 5: Graphs
+
+
+
+
+
+
+13
+
+
+
+Breadth-first search (BFS)
+
+
+
+
+14
+
+
+
+Depth-first search (DFS), topological sorting
+
+
+
+Unit 6: Shortest Paths
+
+
+
+
+
+
+15
+
+
+Single-source shortest paths problem (PDF)
+
+
+
+
+
+
+16
+
+
+Dijkstra (PDF)
+
+
+
+
+
+
+17
+
+
+Bellman-Ford (PDF - 1.2MB)
+
+
+
+
+
+
+18
+
+
+Speeding up Dijkstra (PDF - 1.1MB)
+
+
+
+
+
+Unit 7: Dynamic Programming
+
+
+
+
+
+
+19
+
+
+
+Dynamic programming I: Fibonacci, shortest paths
+
+
+
+
+20
+
+
+
+Dynamic programming II: text justification, blackjack
+
+
+
+
+21
+
+
+
+Dynamic programming III: parenthesization, edit distance, knapsack
+
+
+
+
+22
+
+
+
+Dynamic programming IV: guitar fingering, Tetris, Super Mario Bros.
+
+
+
+Unit 8: Advanced Topics
+
+
+
+
+
+
+23
+
+
+
+Computational complexity
+
+
+
+
+24
+
+
+
+Topics in algorithms research
+If you're seeing this message, it means we're having trouble loading external resources on our website.
+
+             If you're behind a web filter, please make sure that the domains *.kastatic.org and *.kasandbox.org are unblocked.
+
+
+To log in and use all the features of Khan Academy, please enable JavaScript in your browser.
+We've partnered with Dartmouth college professors Tom Cormen and Devin Balkcom to teach introductory computer science algorithms, including searching, sorting, recursion, and graph theory. Learn with a combination of articles, visualizations, quizzes, and coding challenges.
+Our mission is to provide a free, world-class education to anyone, anywhere.
+
+Khan Academy is a 501(c)(3) nonprofit organization. Donate or volunteer today!
+
+A computer network is a collection of computers or devices connected to share resources. Any device which can share or receive the data is called a Node. Through which the information or data propagate is known as channels, It can be guided or unguided.
+
+
+In this Computer network tutorial, you’ll learn basic to advanced concepts like the Basics of computer networks, data link layer, network layer, network security and cryptography, compression techniques, etc.
+
+>> Quiz on Data Link Layer
+>> Quiz on Network Layer
+>> Quiz on IP addressing
+>> Quiz on Transport Layer
+>> Quiz on Application Layer
+>> Quiz on Network Security and Cryptography
+Answer:
+Answer:
+
+A link is a connection between two or more computers. Link can be wired or wireless between two nodes. A node is refer to any device in a network like computers, laptops, printers, servers, modems, etc.
+
+Answer:
+
+Network topology is the physical design of the network, It represents the connectivity between the devices, cables, computers, etc.
+
+Answer:
+There are different types of topology are given below:
+Quick Links :
+
+If you're seeing this message, it means we're having trouble loading external resources on our website.
+
+             If you're behind a web filter, please make sure that the domains *.kastatic.org and *.kasandbox.org are unblocked.
+
+
+To log in and use all the features of Khan Academy, please enable JavaScript in your browser.
+How have humans protected their secret messages through history? What has changed today?
+Our mission is to provide a free, world-class education to anyone, anywhere.
+
+Khan Academy is a 501(c)(3) nonprofit organization. Donate or volunteer today!
+If you're seeing this message, it means we're having trouble loading external resources on our website.
+
+             If you're behind a web filter, please make sure that the domains *.kastatic.org and *.kasandbox.org are unblocked.
+
+
+To log in and use all the features of Khan Academy, please enable JavaScript in your browser.
+Our mission is to provide a free, world-class education to anyone, anywhere.
+
+Khan Academy is a 501(c)(3) nonprofit organization. Donate or volunteer today!
+Note: this guide was extensively updated in May 2020. For the prior version, see here.
+If you’re a self-taught engineer or bootcamp grad, you owe it to
+      yourself to learn computer science. Thankfully, you can give yourself a
+      world-class CS education without investing years and a small fortune in a
+      degree program 💸.
+There are plenty of resources out there, but some are better than
+      others. You don’t need yet another “200+ Free Online Courses” listicle.
+      You need answers to these questions:
+This guide is our attempt to definitively answer these questions.
+Thank you to the following volunteers for translations:
+Study all nine subjects below, in roughly the presented order, using
+      either the suggested textbook or video lecture series, but ideally both. Aim for
+      100-200 hours of study of each topic, then revisit favorites
+      throughout your career 🚀.
+If the idea of self-studying 9 topics over multiple years feels overwhelming, we suggest you focus on just two books: Computer Systems: A Programmer's Perspective and Designing Data-Intensive Applications. In our experience, these two books provide incredibly high return on time invested, particularly for self-taught engineers and bootcamp grads working on networked applications. They may also serve as a "gateway drug" for the other topics and resources listed above.
+There are 2 types of software engineer: those who understand computer science well enough to do challenging, innovative work, and those who just get by because they’re familiar with a few high level tools.
+Both call themselves software engineers, and both tend to earn similar salaries in their early careers. But Type 1 engineers progress toward more fulfilling and well-remunerated work over time, whether that’s valuable commercial work or breakthrough open-source projects, technical leadership or high-quality individual contributions.
+The global SMS system does around 20bn messages a day. WhatsApp is now doing 42bn. With 57 engineers. pic.twitter.com/zZrtSIzhlR
+Type 1 engineers find ways to learn computer science in depth, whether through conventional means or by relentlessly learning throughout their careers. Type 2 engineers typically stay at the surface, learning specific tools and technologies rather than their underlying foundations, only picking up new skills when the winds of technical fashion change.
+Currently, the number of people entering the industry is rapidly increasing, while the number of CS grads is relatively static. This oversupply of Type 2 engineers is starting to reduce their employment opportunities and keep them out of the industry’s more fulfilling work. Whether you’re striving to become a Type 1 engineer or simply looking for more job security, learning computer science is the only reliable path.
+Most undergraduate CS programs start with an “introduction” to computer programming. The best versions of these courses cater not just to novices, but also to those who missed beneficial concepts and programming models while first learning to code.
+Our standard recommendation for this content is the classic Structure and Interpretation of Computer Programs, which is available online for free both as a book, and as a set of MIT video lectures. While those lectures are great, our video suggestion is actually Brian Harvey’s SICP lectures (for the 61A course at Berkeley) instead. These are more refined and better targeted at new students than are the MIT lectures.
+We recommend working through at least the first three chapters of SICP and doing the exercises. For additional practice, work through a set of small programming problems like those on exercism.
+Since this guide was first published in 2016, one of the most commonly asked questions has been whether we’d now recommend recordings of a more recent iteration of 61A taught by John DeNero, and/or the corresponding book Composing Programs, which is “in the tradition of SICP” but uses Python. We think the DeNero resources are also great, and some students may end up preferring them, but we still suggest SICP, Scheme, and Brian Harvey’s lectures as the first set of resources to try.
+Why? Because SICP is unique in its ability—at least potentially—to alter your fundamental beliefs about computers and programming. Not everybody will experience this. Some will hate the book, others won't get past the first few pages. But the potential reward makes it worth trying.
+If you don't enjoy SICP, try Composing Programs. If that still doesn't suit, try How to Design Programs. If none of these seem to be rewarding your effort, perhaps that's a sign that you should focus on other topics for some time, and revisit the discipline of programming in another year or two.
+Finally, a point of clarification: this guide is NOT designed for those who are entirely new to programming. We assume that you are a competent programmer without a background in computer science, looking to fill in some knowledge gaps. The fact that we've included a section on "programming" is simply a reminder that there may be more to learn. For those who've never coded before, but who'd like to, you might prefer a guide like this one.
+Computer Architecture—sometimes called “computer systems” or “computer organization”—is an important first look at computing below the surface of software. In our experience, it’s the most neglected area among self-taught software engineers.
+Our favorite introductory book is Computer Systems: A Programmer's Perspective, and a typical introductory computer architecture course using the book would cover most of chapters 1-6.
+We love CS:APP for the practical, programmer-oriented approach. While there's much more to computer architecture than what's covered in the book, it serves as a great starting point for those who'd like to understand computer systems primarily in order to write faster, more efficient and more reliable software.
+For those who'd prefer both a gentler introduction to the topic and a balance of hardware and software concerns, we suggest The Elements of Computing Systems, also known as “Nand2Tetris”. This is an ambitious book attempting to give you a cohesive understanding of how everything in a computer works. Each chapter involves building a small piece of the overall system, from writing elementary logic gates in HDL, through a CPU and assembler, all the way to an application the size of a Tetris game.
+We recommend reading through the first six chapters of the book and completing the associated projects. This will develop your understanding of the relationship between the architecture of the machine and the software that runs on it.
+The first half of the book (and all of its projects), are available for free from the Nand2Tetris website. It’s also available as a Coursera course with accompanying videos.
+In seeking simplicity and cohesiveness, Nand2Tetris trades off depth. In particular, two very important concepts in modern computer architectures are pipelining and memory hierarchy, but both are mostly absent from the text.
+Once you feel comfortable with the content of Nand2Tetris, we suggest either returning to CS:APP, or considering Patterson and Hennessy’s Computer Organization and Design, an excellent and now classic text. Not every section in the book is essential; we suggest following Berkeley’s CS61C course “Great Ideas in Computer Architecture” for specific readings. The lecture notes and labs are available online, and past lectures are on the Internet Archive.
+Hardware is the platform
+We agree with decades of common wisdom that familiarity with common algorithms and data structures is one of the most empowering aspects of a computer science education. This is also a great place to train one’s general problem-solving abilities, which will pay off in every other area of study.
+There are hundreds of books available, but our favorite is The Algorithm Design Manual by Steven Skiena. He clearly loves algorithmic problem solving and typically succeeds in fostering similar enthusiasm among his students and readers. In our opinion, the two more commonly suggested texts (CLRS and Sedgewick) tend to be a little too proof-heavy for those learning the material primarily to help with practical problem solving.
+For those who prefer video lectures, Skiena generously provides his online. We also really like Tim Roughgarden’s course, available on Coursera and elsewhere. Whether you prefer Skiena’s or Roughgarden’s lecture style will be a matter of personal preference. In fact, there are dozens of good alternatives, so if you happen to find another that you like, we encourage you to stick with it!
+For practice, our preferred approach is for students to solve problems on Leetcode. These tend to be interesting problems with decent accompanying solutions and discussions. They also help you test progress against questions that are commonly used in technical interviews at the more competitive software companies. We suggest solving around 100 random leetcode problems as part of your studies.
+Finally, we strongly recommend How to Solve It as an excellent and unique guide to general problem solving; it’s as applicable to computer science as it is to mathematics.
+I have only one method that I recommend extensively—it’s called think before you write.
+In some ways, computer science is an overgrown branch of applied mathematics. While many software engineers try—and to varying degrees succeed—at ignoring this, we encourage you to embrace it with direct study. Doing so successfully will give you an enormous competitive advantage over those who don’t.
+The most relevant area of math for CS is broadly called “discrete mathematics”, where “discrete” is the opposite of “continuous” and is loosely a collection of interesting applied math topics outside of calculus. Given the vague definition, it’s not meaningful to try to cover the entire breadth of “discrete mathematics”. A more realistic goal is to build a working understanding of logic, combinatorics and probability, set theory, graph theory, and a little of the number theory informing cryptography. Linear algebra is an additional worthwhile area of study, given its importance in computer graphics and machine learning.
+Our suggested starting point for discrete mathematics is the set of lecture notes by László Lovász. Professor Lovász did a good job of making the content approachable and intuitive, so this serves as a better starting point than more formal texts.
+For a more advanced treatment, we suggest Mathematics for Computer Science, the book-length lecture notes for the MIT course of the same name. That course’s video lectures are also freely available, and are our recommended video lectures for discrete math.
+For linear algebra, we suggest starting with the Essence of linear algebra video series, followed by Gilbert Strang’s book and video lectures.
+If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.
+Operating System Concepts (the “Dinosaur book”) and Modern Operating Systems are the “classic” books on operating systems. Both have attracted criticism for their lack of clarity and general student unfriendliness.
+Operating Systems: Three Easy Pieces is a good alternative that’s freely available online. We particularly like the structure and readability of the book, and feel that the exercises are worthwhile.
+After OSTEP, we encourage you to explore the design decisions of specific operating systems, through “{OS name} Internals” style books such as Lion's commentary on Unix, The Design and Implementation of the FreeBSD Operating System, and Mac OS X Internals. For Linux, we suggest Robert Love's fantastic Linux Kernel Development.
+A great way to consolidate your understanding of operating systems is to read the code of a small kernel and add features. One choice is xv6, a port of Unix V6 to ANSI C and x86, maintained for a course at MIT. OSTEP has an appendix of potential xv6 labs full of great ideas for potential projects.
+Given that so much of software engineering is on web servers and clients, one of the most immediately valuable areas of computer science is computer networking. Our self-taught students who methodically study networking find that they finally understand terms, concepts and protocols they’d been surrounded by for years.
+Our favorite book on the topic is Computer Networking: A Top-Down Approach. The small projects and exercises in the book are well worth doing, and we particularly like the “Wireshark labs”, which they have generously provided online.
+For those who prefer video lectures, we suggest Stanford’s Introduction to Computer Networking course previously available via Stanford's MOOC platform Lagunita, but sadly now only available as unofficial playlists on Youtube.
+You can’t gaze in the crystal ball and see the future. What the Internet is going to be in the future is what society makes it.
+— Bob Kahn
+It takes more work to self-learn about database systems than it does with most other topics. It’s a relatively new (i.e. post 1970s) field of study with strong commercial incentives for ideas to stay behind closed doors. Additionally, many potentially excellent textbook authors have preferred to join or start companies instead.
+Given the circumstances, we encourage self-learners to generally avoid textbooks and start with recordings of CS 186, Joe Hellerstein’s databases course at Berkeley, and to progress to reading papers after.
+One paper particularly worth mentioning for new students is “Architecture of a Database System”, which uniquely provides a high-level view of how relational database management systems (RDBMS) work. This will serve as a useful skeleton for further study.
+Readings in Database Systems, better known as the databases “Red Book”, is a collection of papers compiled and edited by Peter Bailis, Joe Hellerstein and Michael Stonebraker. For those who have progressed beyond the level of the CS 186 content, the Red Book should be your next stop.
+If you're adamant about using an introductory textbook, we suggest Database Management Systems by Ramakrishnan and Gehrke. For more advanced students, Jim Gray’s classic Transaction Processing: Concepts and Techniques is worthwhile, but we don’t encourage using this as a first resource.
+Finally, data modeling is a neglected and poorly taught aspect of working with databases. Our suggested book on the topic is Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World.
+Most programmers learn languages, whereas most computer scientists learn about languages. This gives the computer scientist a distinct advantage over the programmer, even in the domain of programming! Their knowledge generalizes; they are able to understand the operation of a new language more deeply and quickly than those who have merely learned specific languages.
+Our suggested introductory text is the excellent Crafting Interpreters by Bob Nystrom, available for free online. It's well organized, highly entertaining, and well suited to those whose primary goal is simply to better understand their languages and language tools. We suggest taking the time to work through the whole thing, attempting whichever of the "challenges" sustain your interest.
+A more traditional recommendation is Compilers: Principles, Techniques & Tools, commonly called “the Dragon Book”. Unfortunately, it’s not designed for self-study, but rather for instructors to pick out 1-2 semesters worth of topics for their courses.
+If you elect to use the Dragon Book, it’s almost essential that you cherry-pick the topics, ideally with the help of a mentor. In fact, our suggested way to utilize the Dragon Book, if you so choose, is as a supplementary reference for a video lecture series. Our recommended one is Alex Aiken’s, on edX.
+Don’t be a boilerplate programmer. Instead, build tools for users and other programmers. Take historical note of textile and steel industries: do you want to build machines and tools, or do you want to operate those machines?
+— Ras Bodik at the start of his compilers course
+As computers have increased in number, they have also spread. Whereas businesses would previously purchase larger and larger mainframes, it’s typical now for even very small applications to run across multiple machines. Distributed systems is the study of how to reason about the trade-offs involved in doing so.
+Our suggested book for self-study is Martin Kleppmann's Designing Data-Intensive Applications. Far better than a traditional textbook, DDIA is a highly readable book designed for practitioners, which somehow avoids sacrificing depth or rigor.
+For those seeking a more traditional text, or who would prefer one that’s available for free online, we suggest Maarten van Steen and Andrew Tanenbaum’s Distributed Systems, 3rd Edition.
+For those who prefer video, an excellent course with videos available online is MIT’s 6.824, a graduate course taught by Robert Morris with readings available here.
+No matter the choice of textbook or other secondary resources, study of distributed systems absolutely mandates reading papers. A good list is here, and we would highly encourage attending your local Papers We Love chapter.
+We have in mind that you are a self-taught software engineer, bootcamp grad or precocious high school student, or a college student looking to supplement your formal education with some self-study. The question of when to embark upon this journey is an entirely personal one, but most people tend to benefit from having some professional experience before diving too deep into CS theory. For instance, we notice that students love learning about database systems if they have already worked with databases professionally, or about computer networking if they’ve worked on a web project or two.
+We’ve tried to limit our list to computer science topics that we feel every practicing software engineer should know, irrespective of specialty or industry, but with a focus on systems. In our experience, these will be the highest ROI topics for the overwhelming majority of self-taught engineers and bootcamp grads, and provide a solid foundation for further study. Subsequently, you’ll be in a much better position to pick up textbooks or papers and learn the core concepts without much guidance. Here are our suggested starting points for a couple of common “electives”:
+Realistically, all of these subjects have a significant amount of overlap, and refer to one another cyclically. Take for instance the relationship between discrete math and algorithms: learning math first would help you analyze and understand your algorithms in greater depth, but learning algorithms first would provide greater motivation and context for discrete math. Ideally, you’d revisit both of these topics many times throughout your career.
+As such, our suggested sequencing is mostly there to help you just get started… if you have a compelling reason to prefer a different sequence, then go for it. The most significant “pre-requisites” in our opinion are: computer architecture before operating systems or databases, and networking and operating systems before distributed systems.
+When this guide was first written in 2016, the OSS guide had too many subjects, suggested inferior resources for many of them, and provided no rationale or guidance around why or what aspects of particular courses are valuable. We strove to limit our list of courses to those which you really should know as a software engineer, irrespective of your specialty, and to help you understand why each course is included. In the subsequent years, the OSS guide has improved, but we still think that this one provides a clearer, more cohesive path.
+freeCodeCamp is focused mostly on programming, not computer science. For why you might want to learn computer science, see above. If you are new to programming, we suggest prioritizing that, and returning to this guide in a year or two.
+Learning a particular programming language is on a totally different plane to learning about an area of computer science — learning a language is much easier and much less valuable. If you already know a couple of languages, we strongly suggest simply following our guide and fitting language acquisition in the gaps, or leaving it for afterwards. If you’ve learned programming well (such as through Structure and Interpretation of Computer Programs), and especially if you have learned compilers, it should take you little more than a weekend to learn the essentials of a new language, after which you can learn about the libraries/tooling/ecosystem on the job.
+No single technology is important enough that learning to use it should be a core part of your education. On the other hand, it’s great that you’re excited to learn about that thing. The trick is to work backwards from the particular technology to the underlying field or concept, and learn that in depth before seeing how your trendy technology fits into the bigger picture.
+Look, just try it. Some people find SICP mind blowing, a characteristic shared by very few other books. If you don't like it, you can always try something else and perhaps return to SICP later.
+The Dragon book is still the most complete single resource for compilers. It gets a bad rap, typically for overemphasizing certain topics that are less fashionable to cover in detail these days, such as parsing. The thing is, the book was never intended to be studied cover to cover, only to provide enough material for an instructor to put together a course. Similarly, a self-learner can choose their own adventure through the book, or better yet follow the suggestions that lecturers of public courses have made in their course outlines.
+Many of the textbooks we suggest are freely available online, thanks to the generosity of their authors. For those that aren’t, we suggest buying used copies of older editions. As a general rule, if there has been more than a couple of editions of a textbook, it’s quite likely that an older edition is perfectly adequate. It’s certainly unlikely that the newest version is 10x better than an older one, even if that’s what the price difference is!
+This guide was originally written by Oz Nova and Myles Byrne, with 2020 updates by Oz. It is based on our experience teaching foundational computer science to over 1,000 mostly self-taught engineers and bootcamp grads in small group settings in San Francisco and live online. Thank you to all of our students for your continued feedback on self-teaching resources.
+For updates to this guide and general computer science news and resources, you may also like to sign up for Oz's newsletter:
+ While you’re here, feast your eyes upon these popular 
+ recommendations for you.
+Problem of the day
+Job-A-Thon
+Weekly Coding Contest
+Python Tutorial
+
+Algorithm is a step-by-step procedure for solving a problem or accomplishing a task. In the context of data structures and algorithms, it is a set of well-defined instructions for performing a specific computational task. Algorithms are fundamental to computer science and play a very important role in designing efficient solutions for various problems. Understanding algorithms is essential for anyone interested in mastering data structures and algorithms.
+
+Table of Content
+An algorithm is a finite sequence of well-defined instructions that can be used to solve a computational problem. It provides a step-by-step procedure that convert an input into a desired output.
+Algorithms typically follow a logical structure:
+Algorithms are essential for solving complex computational problems efficiently and effectively. They provide a systematic approach to:
+Below are some example of algorithms:
+To write an algorithm, follow these steps:
+Algorithms can be different types, depending on what they do and how they’re made. Some common types are:
+Quizzes:
+H
+
